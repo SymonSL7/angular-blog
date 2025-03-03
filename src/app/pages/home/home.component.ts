@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { dataFake } from '../../data/dataFake';
 
 @Component({
   selector: 'app-home',
@@ -10,13 +10,16 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  photoCover:string = ""
-  homeTitle:string = ""
-  homeDescription:string = ""
-  private id:string | null = "0"
-
   ngOnInit(): void {
 
   }
+
+  sortedData = [...dataFake].sort((a, b) => {
+    return parseInt(b.id) - parseInt(a.id);
+  });
+
+  mainArticle = this.sortedData[0];
+
+  otherArticles = this.sortedData.slice(1,4);
 
 }
