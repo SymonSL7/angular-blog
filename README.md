@@ -9,6 +9,8 @@ Projeto do Bootcamp Decola Tech 2025 da DIO.ME.
 
 Projeto foi gerado através do Angular CLI.
 
+O Blog renderiza as notícias que vêm de um banco de dados FAKE, automaticamente na tela, trazendo os artigos em ordem decrescente (do mais novo para o mais antigo) e exibindo na tela somente os últimos 4 artigos.
+
 ## Conecte-se comigo
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/symonsilvalima/)
