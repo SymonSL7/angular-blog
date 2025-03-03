@@ -4,6 +4,7 @@
 # Projeto De Um Blog Desenvolvido Com Angular
 ## Descrição
 Neste projeto foi desenvolvido um Blog simples, usando o Angular para o Desenvolvimento. 
+
 Projeto do Bootcamp Decola Tech 2025 da DIO.ME.
 
 Projeto foi gerado através do Angular CLI.
